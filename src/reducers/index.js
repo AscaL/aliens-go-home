@@ -1,5 +1,5 @@
 const initialState = {
-  message: `It's easy to integrate react and redux, isn't it?s`,
+  message: `It's easy to integrate react and redux, isn't it?`,
 };
 
 function reducer(state = initialState) {

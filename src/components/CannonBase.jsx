@@ -31,10 +31,10 @@ const CannonBase = props => {
     },
   };
 
-  rreturn(
+  return (
     <g>
-      <path style={cannonBaseStyle} d={pathFromBezierCurve(cubicBezierCurve)} />
-      <line x1={-halfBase} y1={height} x2={halfBase} y2={height} style={cannonBaseStyle} />
+      <path style={CannonBaseStyle} d={pathFromBezierCurve(cubicBezierCurve)} />
+      <line x1={-halfBase} y1={height} x2={halfBase} y2={height} style={CannonBaseStyle} />
     </g>
   );
 };
